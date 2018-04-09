@@ -5,7 +5,7 @@ MANDATORY:
 0. Write a shell script that runs a Python script
 1. Write a shell script that runs Python code
 2. Write a Python script that prints `"Programming is like building a multilingual puzzle` followed by a new line
-3. Complete this [source code](https://intranet.hbtn.io/rltoken/0i-Pnpg2KOknFsKP1aTbMw) in order to print the integer stored in the vvariable `number`, followed by `Battery Street`, followed by a new line
+3. Complete this [source code](https://intranet.hbtn.io/rltoken/0i-Pnpg2KOknFsKP1aTbMw) in order to print the integer stored in the variable `number`, followed by `Battery Street`, followed by a new line
 4. Complete this [source code](https://intranet.hbtn.io/rltoken/PIUHr_JgW70Vdl8RMF3dlw) in order to print the float stored in variable `number` with a precision of 2 digits
 5. Complete this [source code](https://intranet.hbtn.io/rltoken/SsZaCpUT5-6nybzBeUkHyw) in order to print a string `str` 3 times, followed by its first 9 characters
 6. Complete this [source code](https://intranet.hbtn.io/rltoken/ZkKe9rR2Wmml7czNY0BuiA) to print `Welcome to Holberton School!`
