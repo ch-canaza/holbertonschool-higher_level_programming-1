@@ -1,4 +1,4 @@
-This project consists of simple programs written in Python designed to serve as a brief introduction to the langugage. 
+This project consists of simple programs written in Python designed to serve as a brief introduction to the language. 
 
 MANDATORY:
 
