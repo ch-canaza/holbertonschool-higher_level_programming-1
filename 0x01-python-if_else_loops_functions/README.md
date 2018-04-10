@@ -3,7 +3,7 @@ This project consists of Python and shell scripts pertaining to if/else statemen
 MANDATORY:
 
 0. Complete the [source code](https://intranet.hbtn.io/rltoken/2S3G4vOnRrWymCjKYd6Wew) to determine whether the value stored in variable `number` is positive or negative
-1. Complete the [source code] to print the last digit of `number`
+1. Complete the [source code](https://intranet.hbtn.io/rltoken/e9k9---MJXcMmIjlMdlBpw) to print the last digit of `number`
 2. Write a program that prints the lowercase alphabet not followed by a new line
 3. Write a program that prints the lowercase alphabet, except for `q` and `e`, not followed by a new line
 4. Write a program that prints all numbers from `0` to `98` in decimal and hexadecimal
