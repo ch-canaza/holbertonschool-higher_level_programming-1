@@ -9,7 +9,7 @@ MANDATORY:
 4. Write a program that prints all numbers from `0` to `98` in decimal and hexadecimal
 5. Write a program that prints all numbers from `0` to `98` in the following format:
 ```
->>> 00, 01, 02, 03, 04, 05 ```
+>>> 00, 01, 02, 03, 04, 05
 ```
 6. Write a program that prints all possible combinations of two digits
 7. Write a function that checks for a lowercase character:
