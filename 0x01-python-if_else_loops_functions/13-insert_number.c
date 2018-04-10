@@ -36,8 +36,7 @@ listint_t *insert_node(listint_t **head, int number)
 		runner = runner->next;
 	}
 
-		runner->next = new;
-		new->next = NULL;
-
+	runner->next = new;
+	new->next = NULL;
 	return (new);
 }
