@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-print("Last digit of {:d} is".format(number), end = " ")
+print("Last digit of {:d} is".format(number), end=" ")
 
 if number > 0:
-    print("{:d}".format(number % 10), end = " ")
+    print("{:d}".format(number % 10), end=" ")
 else:
-    print("-{:d}".format((number * -1) % 10), end = " ")
+    print("-{:d}".format((number * -1) % 10), end=" ")
 
 if number % 10 == 0:
     print("and is 0")
