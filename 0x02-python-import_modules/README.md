@@ -19,9 +19,9 @@ MANDATORY:
 ADVANCED:
 
 **[100-my_calculator.py](100-my_calculator.py)** - Write a program that imports all functions from the file `calculator_1.py` and handles basic operations  
-**[101-easy_print.py](101-easy_print.py)** - Write a program that prints `#pythoniscool`, followed by a new line, in the standard output
-					   * Maximum of 2 lines long
-					   * Not allowed: `print`, `eval`, `open`, or `import sys`
+**[101-easy_print.py](101-easy_print.py)** - Write a program that prints `#pythoniscool`, followed by a new line, in the standard output  
+					   * Maximum of 2 lines long  
+					   * Not allowed: `print`, `eval`, `open`, or `import sys`  
 **[102-magic_calculation.py](102-magic_calculation.py) - Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode
 ```
   3           0 LOAD_CONST               1 (0)
@@ -72,11 +72,11 @@ ADVANCED:
             107 LOAD_CONST               0 (None)
             110 RETURN_VALUE
 ```
-**[103-fast_alphabet.py](103-fast_alphabet.py)** - Write a program that prints the alphabet in uppercase, followed by a new line
-						 * Maximum 3 lines long
-						 * Not allowed:
-						   * any loops
-						   * any conditional statements
-						   * str.join()
-						   * any string literal
-						   * any system calls
+**[103-fast_alphabet.py](103-fast_alphabet.py)** - Write a program that prints the alphabet in uppercase, followed by a new line  
+						 * Maximum 3 lines long  
+						 * Not allowed:  
+						   * any loops  
+						   * any conditional statements  
+						   * str.join()  
+						   * any string literal  
+						   * any system calls  
