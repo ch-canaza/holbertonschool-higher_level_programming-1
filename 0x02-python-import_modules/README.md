@@ -22,7 +22,7 @@ ADVANCED:
 **[101-easy_print.py](101-easy_print.py)** - Write a program that prints `#pythoniscool`, followed by a new line, in the standard output  
 					   * Maximum of 2 lines long  
 					   * Not allowed: `print`, `eval`, `open`, or `import sys`  
-**[102-magic_calculation.py](102-magic_calculation.py) - Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode
+**[102-magic_calculation.py](102-magic_calculation.py)** - Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode
 ```
   3           0 LOAD_CONST               1 (0)
               3 LOAD_CONST               2 (('add', 'sub'))
