@@ -31,48 +31,48 @@
 
 ### MANDATORY   
 **[0-print_list_integer.py](0-print_list_integer.py)** -  Print a list of integers    
-Prototype: `def print_list_integer(my_list=[]):`   
+*Prototype*: `def print_list_integer(my_list=[]):`   
 
 **[1-element_at.py](1-element_at.py)** - Print an element at a certain position in a list     
-Prototype: `def element_at(my_list, idx):`   
+*Prototype*: `def element_at(my_list, idx):`   
 
 **[2-replace_in_list.py](2-replace_in_list.py)** - Write a function that replaces an element of a list at a specific position   
-Prototype: `def replace_in_list(my_list, idx, element):`
+*Prototype*: `def replace_in_list(my_list, idx, element):`
 
 **[3-print_reversed_list_integer.py](3-print_reversed_list_integer.py)** - Print a list of integers in reverse   
-Prototype: `def print_reversed_list_integer(my_list=[]):`
+*Prototype*: `def print_reversed_list_integer(my_list=[]):`
 
 **[4-new_in_list.py](4-new_in_list.py)** - Replace an element in a list at a specific position without modifying the original list  
-Prototype: `def new_in_list(my_list, idx, element):`
+*Prototype*: `def new_in_list(my_list, idx, element):`
 
 **[5-no_c.py](5-no_c.py)** - Remove all characters `c` and `C` from a string   
-Prototype: `def no_c(my_string):`
+*Prototype*: `def no_c(my_string):`
 
 **[6-print_matrix_integer.py](6-print_matrix_integer.py)** - Print a matrix of integers  
-Prototype: `def print_matrix_integer(matrix=[[]]):`
+*Prototype*: `def print_matrix_integer(matrix=[[]]):`
 
 **[7-add_tuple.py](7-add_tuple.py)** - Adds 2 tuples   
-Prototype: `def add_tuple(tuple_a=(), tuple_b=()):`
+*Prototype*: `def add_tuple(tuple_a=(), tuple_b=()):`
 
 **[8-multiple_returns.py](8-multiple_returns.py)** - Returns a tuple with the length of a string and its first character.  
-Prototype: `def multiple_returns(sentence):`
+*Prototype*: `def multiple_returns(sentence):`
 
 **[9-max_integer.py](9-max_integer.py)** -  Find the biggest integer in a list  
-Prototype: `def max_integer(my_list=[]):`
+*Prototype*: `def max_integer(my_list=[]):`
 
 **[10-divisible_by_2.py](10-divisible_by_2.py)** - Find all multiples of 2 in a list  
-Prototype: `def divisible_by_2(my_list=[]):`
+*Prototype*: `def divisible_by_2(my_list=[]):`
 
 **[11-delete_at.py](11-delete_at.py)** - Deletes the item at a specific position in a list   
-Prototype: `def delete_at(my_list=[], idx=0):`
+*Prototype*: `def delete_at(my_list=[], idx=0):`
 
 **[12-switch.py](12-switch.py)** - Complete the [source code](https://intranet.hbtn.io/rltoken/RfHRsVZK5IVZ5e4-0WAOJQ) to switch the value of `a` and `b`
 
-**[13-is_palindrome.c](13-is_palindrome.c)** - Write a function in C that checks if a singly linked list is a palindrome. Include a guarded header file named `lists.h` containing all prototypes.
-Prototype: `int is_palindrome(listint_t **head);`
+**[13-is_palindrome.c](13-is_palindrome.c)** - Write a function in C that checks if a singly linked list is a palindrome. Include a guarded header file named `lists.h` containing all prototypes.  
+*Prototype*: `int is_palindrome(listint_t **head);`
 
 
 ### ADVANCED   
 
 **[100-print_python_list_info.c](100-print_python_list_info.c)** - Create a C function that prints some basic info about Python lists. The shared library will be compiled with the following command line: `gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c`  
-Prototype: `void print_python_list_info(PyObject *p);`
+*Prototype*: `void print_python_list_info(PyObject *p);`
