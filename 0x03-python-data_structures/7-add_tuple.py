@@ -20,5 +20,5 @@ def add_tuple(tuple_a=(), tuple_b=()):
         bb = tuple_b[1]
     a = aa + ba
     b = ab + bb
-    new_tuple=(a, b)
+    new_tuple = (a, b)
     return new_tuple
