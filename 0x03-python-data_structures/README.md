@@ -32,9 +32,17 @@
 ### MANDATORY   
 **[0-print_list_integer.py](0-print_list_integer.py)** -  Print a list of integers    
 Prototype: `def print_list_integer(my_list=[]):`   
+
 **[1-element_at.py](1-element_at.py)** - Print an element at a certain position in a list     
 Prototype: `def element_at(my_list, idx):`   
+
 **[2-replace_in_list.py](2-replace_in_list.py)** - Write a function that replaces an element of a list at a specific position   
+Prototype: `def replace_in_list(my_list, idx, element):`
+
+**[3-print_reversed_list_integer.py](3-print_reversed_list_integer.py)** - Print a list of integers in reverse   
+Prototype: `def print_reversed_list_integer(my_list=[]):`
+
+
 
 ### ADVANCED   
 
