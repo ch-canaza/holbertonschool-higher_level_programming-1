@@ -74,6 +74,5 @@ Prototype: `int is_palindrome(listint_t **head);`
 
 ### ADVANCED   
 
-**[100-print_python_list_info.c](100-print_python_list_info.c)** - Create a C function that prints some basic info about Python lists.  
-The shared library will be compiled with the following command line: `gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c`  
+**[100-print_python_list_info.c](100-print_python_list_info.c)** - Create a C function that prints some basic info about Python lists. The shared library will be compiled with the following command line: `gcc -Wall -Werror -Wextra -pedantic -std=c99 -shared -Wl,-soname,PyList -o libPyList.so -fPIC -I/usr/include/python3.4 100-print_python_list_info.c`  
 Prototype: `void print_python_list_info(PyObject *p);`
