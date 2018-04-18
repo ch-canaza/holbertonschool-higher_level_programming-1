@@ -13,13 +13,13 @@ int pal(listint_t **start, listint_t *end)
 	if (end == NULL)
 		return (1);
 
-	if (pal(start, end->next) == 0 && (*start)->n != end->n)
+	if (pal(start, end->next) == 1 && (*start)->n == end->n)
 	{
 		*start = (*start)->next;
-		return (0);
+		return (1);
 	}
 
-	return (1);
+	return (0);
 }
 
 
