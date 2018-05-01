@@ -16,16 +16,38 @@
 ## EXERCISES   
 
 ### MANDATORY   
+
+**[0-safe_print_list.py](0-safe_print_list.py)** - Write a funcion that prints `x` elements of a list   
+Prototype: `def safe_print_list(my_list=[], x=0):`   
+
 **[]()** - 
-**[]()** -
-**[]()** -
-**[]()** -
-**[]()** -
-**[]()** -
-**[]()** -
+Prototype: ``   
+
+**[]()** - 
+Prototype: ``   
+
+**[]()** - 
+Prototype: ``   
+
+**[]()** - 
+Prototype: ``   
+
+**[]()** - 
+Prototype: ``   
+
+**[]()** - 
+Prototype: ``   
 
 ### ADVANCED   
-**[]()** -
-**[]()** -
-**[]()** -
-**[]()** -
+
+**[]()** - 
+Prototype: ``   
+
+**[]()** - 
+Prototype: ``   
+
+**[]()** - 
+Prototype: ``   
+
+**[]()** - 
+Prototype: ``   
