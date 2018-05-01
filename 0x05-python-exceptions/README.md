@@ -41,7 +41,7 @@ Prototype: `def raise_exception_msg(message=""):`
 
 ### ADVANCED   
 
-**[def raise_exception_msg(message=\"\"):](def raise_exception_msg(message=\"\"):)** - Prints an integer    
+**[100-safe_print_integer_err.py](100-safe_print_integer_err.py)** - Prints an integer    
 Prototype: `def safe_print_integer_err(value):`  
 
 **[101-safe_function.py](101-safe_function.py)** - Executes a function safely   
