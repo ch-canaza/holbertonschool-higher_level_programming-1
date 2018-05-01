@@ -41,13 +41,13 @@ Prototype: `def raise_exception_msg(message=""):`
 
 ### ADVANCED   
 
-**[def raise_exception_msg(message=""):](def raise_exception_msg(message=""):)** - Prints an integer    
+**[def raise_exception_msg(message=\"\"):](def raise_exception_msg(message=\"\"):)** - Prints an integer    
 Prototype: `def safe_print_integer_err(value):`  
 
 **[101-safe_function.py](101-safe_function.py)** - Executes a function safely   
 Prototype: `def safe_function(fct, *args):`  
 
-**[102-magic_calculation.py](102-magic_calculation.py)** - Does exactly the same as the following Python bytecode
+**[102-magic_calculation.py](102-magic_calculation.py)** - Does exactly the same as the following Python bytecode   
 Prototype: `def magic_calculation(a, b):`  
 ```
 3           0 LOAD_CONST               1 (0)
