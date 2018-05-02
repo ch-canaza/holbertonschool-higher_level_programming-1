@@ -63,12 +63,12 @@ An introduction to:
 
 **[100-singly_linked_list.py](100-singly_linked_list.py)** -    
 * Class `Node` that defines a node of a singly linked list by:   
- * private instance attribute `data`   
-   * property `def data(self):` to retrieve it   
-   * property setter `def data(self, value):` to set it   
- * private instance attribute `next_node`   
-   * property `def next_node(self)` to retrieve it   
-   * property setter `def next_node(self, value):` to set it   
+  * private instance attribute `data`   
+    * property `def data(self):` to retrieve it   
+    * property setter `def data(self, value):` to set it   
+  * private instance attribute `next_node`   
+    * property `def next_node(self)` to retrieve it   
+    * property setter `def next_node(self, value):` to set it   
 * Class `SinglyLinkedList` that defines a singly linked list by:   
   * private instance attribute `head` (no setter or getter)   
   * simple instantiation: `def __init__(self):`   
