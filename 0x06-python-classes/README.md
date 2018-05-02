@@ -18,7 +18,8 @@ An introduction to:
    * all modules should have documentation `python3 -c 'print(__import__("my_module").__doc__)'`   
    * all classes should have documentation `python3 -c 'print(__import__("my_module").MyClass.__doc__)'`   
    * all functions (inside and outside of classes) should have documentation   
-`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and `python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`   
+`python3 -c 'print(__import__("my_module").my_function.__doc__)'` and   
+`python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'`   
 
 ## EXERCISES   
 
