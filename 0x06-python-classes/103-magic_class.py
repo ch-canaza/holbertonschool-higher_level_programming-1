@@ -10,9 +10,6 @@ class MagicClass:
     def __init__(self, radius=0):
         """
         initializes the circle
-
-        Attributes:
-            radius: radius of circle
         """
         self.__radius = 0
         if (type)radius is not int and type(radius) is not float:
@@ -23,10 +20,10 @@ class MagicClass:
         """
         returns area of circle
         """
-        return math.pi * (self.__radius ** 2)
+        return math.pi * self.__radius ** 2
 
     def circumference(self):
         """
         returns circumference of circle
         """
-        return (2 * math.pi) * self.__radius
+        return 2 * math.pi * self.__radius
