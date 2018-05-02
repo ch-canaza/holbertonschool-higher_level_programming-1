@@ -25,9 +25,9 @@ An introduction to:
 
 **[0-square.py](0-square.py)** - Empty class `Square` that defines a square   
 
-**[1-square.py](1-square.py)** - Empty class `Square` with: 
-			       * validated private instance attribute: `size`   
-			       * instantiation with `size` (no type/value verification)   
+**[1-square.py](1-square.py)** - Empty class `Square` with:  
+			       			       * validated private instance attribute: `size`   
+			       			       * instantiation with `size` (no type/value verification)   
 
 **[2-square.py](2-square.py)** - Empty class `Square` with:   
 			       * validated private instance attribute `size`   
