@@ -10,7 +10,6 @@ An introduction to:
 
 ## REQUIREMENTS   
 
-### PYTHON REQUIREMENTS  
    * the first line of all files should be exactly `#!/usr/bin/python3`   
    * all code should use the `PEP8` style (version 1.7.*)   
    * all files must be executable   
