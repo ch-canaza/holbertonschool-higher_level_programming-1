@@ -26,23 +26,23 @@
 ### MANDATORY   
 
 **[0-add_integer.py](0-add_integer.py)** - Adds two integers   
-Test Files: [tests/0-add_integer.txt](tests/0-add_integer.txt)   
+Test File: [tests/0-add_integer.txt](tests/0-add_integer.txt)   
 Prototype: `def add_integer(a, b=98):`   
 
 **[2-matrix_divided.py](2-matrix_divided.py)** - Divides all elements of a matrix   
-Test Files: [tests/2-matrix_divided.txt](tests/2-matrix_divided.txt)   
+Test File: [tests/2-matrix_divided.txt](tests/2-matrix_divided.txt)   
 Prototype: `def matrix_divided(matrix, div):`   
 
 **[3-say_my_name.py](3-say_my_name.py)** - Prints "My name is <first name> <last name>"   
-Test Files: [tests/3-say_my_name.txt](tests/3-say_my_name.txt)   
+Test File: [tests/3-say_my_name.txt](tests/3-say_my_name.txt)   
 Prototype: `def say_my_name(first_name, last_name=""):`   
 
 **[4-print_square.py](4-print_square.py)** - Prints a square with the character `#`    
-Test Files: [tests/4-print_square.txt](tests/4-print_square.txt)   
+Test File: [tests/4-print_square.txt](tests/4-print_square.txt)   
 Prototype: `def print_square(size):`   
 
 **[5-text_indentation.py](5-text_indentation.py)** - Prints text with two new lines after each of these characters: `.`, `?`, and `:`   
-Test Files: [tests/5-text_indentation.txt](tests/5-text_indentation.txt)   
+Test File: [tests/5-text_indentation.txt](tests/5-text_indentation.txt)   
 Prototype: `def text_indentation(text):`   
 
 **[tests/6-max_integer_test.py](tests/6-max_integer_test.py)** - Add unit tests for the function `def max_integer(list=[]):`   
@@ -50,11 +50,11 @@ Prototype: `def text_indentation(text):`
 ### ADVANCED   
 
 **[100-matrix_mul.py](100-matrix_mul.py)** - Multiplies two matrices    
-Test Files: [tests/100-matrix_mul.txt](tests/100-matrix_mul.txt)   
+Test File: [tests/100-matrix_mul.txt](tests/100-matrix_mul.txt)   
 Prototype: `def matrix_mul(m_a, m_b):`   
 
 **[101-lazy_matrix_mul.py](101-lazy_matrix_mul.py)** - Multiplies two matrices using the module [NumPy](http://www.numpy.org)    
-Test Files: [tests/101-lazy_matrix_mul.txt](tests/101-lazy_matrix_mul.txt)   
+Test File: [tests/101-lazy_matrix_mul.txt](tests/101-lazy_matrix_mul.txt)   
 Prototype: `def lazy_matrix_mul(m_a, m_b):`   
 
 **[102-python.c](102-python.c)** - Prints Python strings   
