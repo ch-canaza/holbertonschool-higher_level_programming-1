@@ -17,7 +17,6 @@ matrix contains floats:
          >>> matrix_divided(matrix, 2)
          [[1.0, 2.05, 3.1], [4.0, 5.06, 6.12]]
 
-
 div is a float:
          >>> matrix = [[2, 4, 6], [8, 10, 12]]
          >>> matrix_divided(matrix, 2.15)
