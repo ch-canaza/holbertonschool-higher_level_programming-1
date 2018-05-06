@@ -51,8 +51,8 @@ div is 0:
                    ...
          ZeroDivisionError: division by zero
 
-everything is 0:
-           >>> matrix = [[0, 0, 0], [0, 0, 0]]
+everything is 0.0:
+           >>> matrix = [[0.0, 0.0, 0.0], [0.0, 0.0, 0.0]]
            >>> matrix_divided(matrix, 0.0)
            Traceback (most recent call last):
                    ...
