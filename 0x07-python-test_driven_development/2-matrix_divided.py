@@ -4,6 +4,7 @@ This is the 2-matrix_divided module.
 It contains 1 function: matrix_divided(matrix, div)
 """
 
+
 def matrix_divided(matrix, div):
     """
     returns a new matrix where all elements have been divided by div
@@ -19,7 +20,8 @@ def matrix_divided(matrix, div):
         for num in row:
             if type(num) is not int and type(num) is not float:
                 raise TypeError(
-                    'matrix must be a matrix (list of lists) of integers/floats')
+                    'matrix must be a matrix (list of lists) of '
+                    'integers/floats')
         if size_check == 0:
             size_check = len(row)
         elif size_check != len(row):
