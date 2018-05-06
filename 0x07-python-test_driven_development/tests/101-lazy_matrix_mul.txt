@@ -1,0 +1,89 @@
+The ``100-matrix_mul`` module
+===================
+
+Using ``matrix_mul``
+------------------
+
+import module:
+         >>> matrix_mul = __import__('100-matrix_mul').matrix_mul
+
+normal case:
+         >>> m_a = [1, 2, 3]
+	 >>> m_b = [2, 3, 4]
+	 >>> matrix_mul(m_a, m_b)
+	 [2, 6, 12]
+
+negative numbers:
+         >>> m_a = [-1, -2, 3]
+	 >>> m_b = [2, -3, -4]
+	 >>> matrix_mul(m_a, m_b)
+         [-2, 6, -12]
+
+floats:
+         >>> m_a = [1.0, 2.5, 3.25]
+	 >>> m_b = [2.5, 3.25, 4.0]
+	 >>> matrix_mul(m_a, m_b)
+         [2.5, 8.125, 13]
+
+no arguments:
+         >>> matrix_mul()
+         Traceback (most recent call last):
+                   ...
+         TypeError:
+
+one argument:
+         >>> m_a = [1, 2, 3]
+         >>> matrix_mul(m_a)
+         Traceback (most recent call last):
+                   ...
+         TypeError:
+
+more than two arguments:
+         >>> m_a = [1, 2, 3]
+         >>> m_b = [2, 3, 4]
+	 >>> m_c = [3, 4, 5]
+         >>> matrix_mul(m_a, m_b, m_c)
+         Traceback (most recent call last):
+	 	   ...
+	 TypeError:
+
+a is empty:
+	 >>> m_a = []
+         >>> m_b = [2, 3, 4]
+         >>> matrix_mul(m_a, m_b)
+         Traceback (most recent call last):
+                   ...
+         TypeError: m_a can't be empty
+
+b is empty:
+         >>> m_a = [1, 2, 3]
+         >>> m_b = []
+         >>> matrix_mul(m_a, m_b)
+         Traceback (most recent call last):
+                   ...
+         TypeError: m_b can't be empty
+
+a and b are empty:
+         >>> m_a = []
+         >>> m_b = []
+         >>> matrix_mul(m_a, m_b)
+         Traceback (most recent call last):
+                   ...
+         TypeError: m_a can't be empty
+
+
+one integer argument:
+         >>> m_a = 1
+         >>> m_b = [2, 3, 4]
+         >>> matrix_mul(m_a, m_b)
+         Traceback (most recent call last):
+                   ...
+         TypeError: m_a should contain only integers or floats or m_b should contain only integers or floats
+
+one string argument:
+         >>> m_a = "hello"
+         >>> m_b = [2, 3, 4]
+         >>> matrix_mul(m_a, m_b)
+         Traceback (most recent call last):
+                   ...
+         TypeError: m_a should contain only integers or floats or m_b should contain only integers or floats
