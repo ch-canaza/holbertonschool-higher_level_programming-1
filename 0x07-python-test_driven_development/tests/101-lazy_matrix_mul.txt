@@ -1,7 +1,7 @@
-The ``100-matrix_mul`` module
+The ``101-lazy_matrix_mul`` module
 ===================
 
-Using ``matrix_mul``
+Using ``lazy_matrix_mul``
 ------------------
 
 import module:
