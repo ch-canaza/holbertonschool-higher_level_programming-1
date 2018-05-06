@@ -30,7 +30,7 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([]), None)
 
     def test_one_element(self):
-        self.assertEqual(max_integer(1), 1)
+        self.assertEqual(max_integer([1]), 1)
 
     def test_no_args(self):
         self.assertEqual(max_integer(), None)
