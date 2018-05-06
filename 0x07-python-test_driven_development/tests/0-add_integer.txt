@@ -34,6 +34,18 @@ big numbers:
          >>> add_integer(20000000000000, 50000000000000)
          70000000000000
 
+a is inf:
+         >>> add_integer(float('inf'), 5)
+         Traceback (most recent call last):
+                   ...
+         OverflowError: cannot convert float infinity to integer
+
+a is NaN:
+         >>> add_integer(float('NaN'), 5)
+         Traceback (most recent call last):
+                   ...
+         ValueError: cannot convert float NaN to integer
+
 a is a string:
          >>> add_integer("test", 5)
 	 Traceback (most recent call last):
