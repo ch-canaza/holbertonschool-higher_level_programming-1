@@ -95,7 +95,15 @@ one integer argument:
                    ...
          TypeError: m_a must be a list
 
-one string argument:
+a is a string:
+         >>> m_a = "matrix"
+         >>> m_b = [[5, 6], [7, 8]]
+         >>> matrix_mul(m_a, m_b)
+         Traceback (most recent call last):
+                   ...
+         TypeError: m_a must be a list
+
+b is a string:
          >>> m_a = [[1, 2], [3, 4]]
          >>> m_b = "matrix"
          >>> matrix_mul(m_a, m_b)
