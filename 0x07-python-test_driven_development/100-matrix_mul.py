@@ -13,13 +13,13 @@ def matrix_mul(m_a, m_b):
         raise TypeError('m_a must be a list')
     if type(m_b) is not list:
         raise TypeError('m_b must be a list')
-    if m_a == [] or len(m_a[0]) == 0:
-        raise ValueError('m_a can\'t be empty')
-    if m_a == [] or len(m_b[0]) == 0:
-        raise ValueError('m_b can\'t be empty')
     total_len = len(m_a)
     len_a = len(m_a[0])
     len_b = len(m_b[0])
+    if total_len == 0 or type(len_a[0]) is list and len_a == 0:
+        raise ValueError('m_a can\'t be empty')
+    if len(m_b) == 0 or type(len_b[0]) is list and len_b == 0:
+        raise ValueError('m_b can\'t be empty')
     for row in m_a:
         if len(row) != len_a:
             raise TypeError('each row of m_a must should be of the same size')
