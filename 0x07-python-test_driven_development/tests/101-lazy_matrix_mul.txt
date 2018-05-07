@@ -19,12 +19,6 @@ negative numbers:
          >>> lazy_matrix_mul(m_a, m_b)
          [[-19, 22], [43, -50]]
 
-floats:
-         >>> m_a = [[1.1, 2.0], [3.2, 4.4]
-         >>> m_b = [[5.001, 6.6], [7.1, 8.25]]
-         >>> lazy_matrix_mul(m_a, m_b)
-         [[19.7011, 23.76], [47.2432, 57.42]]
-
 no arguments:
          >>> lazy_matrix_mul()
          Traceback (most recent call last):
@@ -48,7 +42,7 @@ more than two arguments:
 	 TypeError:lazy_matrix_mul() takes 2 positional arguments but 3 were given
 
 a is empty:
-	 >>> m_a = []
+	 >>> m_a = [[]]
          >>> m_b =[[1, 2, 3], [2, 3, 4], [3, 4, 5]]
          >>> lazy_matrix_mul(m_a, m_b)
          Traceback (most recent call last):
@@ -57,7 +51,7 @@ a is empty:
 
 b is empty:
          >>> m_a = [[1, 2, 3], [2, 3, 4], [4, 5, 6]]
-         >>> m_b = []
+         >>> m_b = [[]]
          >>> lazy_matrix_mul(m_a, m_b)
          Traceback (most recent call last):
                    ...
