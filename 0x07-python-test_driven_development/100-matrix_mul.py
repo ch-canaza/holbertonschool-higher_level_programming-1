@@ -33,13 +33,17 @@ def matrix_mul(m_a, m_b):
         for i in row:
             if type(i) is not int and type(i) is not float:
                 raise TypeError('m_b should contain only integers or floats')
+    if len(m_a) >= len(m_b):
+        total_len = len(m_a)
+    else:
+        total_len = len(m_b)
     new_matrix = []
-    for a in range(len(m_a)):
+    for a in range(total_len):
         new_row = []
         for b in range(len_b):
             num = 0
             for c in range(len_a):
-                num += m_a[a][c] * m_a[c][b]
+                num += m_a[a][c] * m_b[c][b]
             new_row.append(num)
         new_matrix.append(new_row)
     return new_matrix

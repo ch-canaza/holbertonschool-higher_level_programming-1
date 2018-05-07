@@ -20,23 +20,23 @@ negative numbers:
          [[-19, 22], [43, -50]]
 
 floats:
-         >>> m_a = [[1.1, 2.0], [3.2, 4.4]
+         >>> m_a = [[1.1, 2.0], [3.2, 4.4]]
          >>> m_b = [[5.001, 6.6], [7.1, 8.25]]
          >>> matrix_mul(m_a, m_b)
-         [[19.7011, 23.76], [47.2432, 57.42]]
+         [[19.7011, 23.759999999999998], [47.2432, 57.42]]
 
 no arguments:
          >>> matrix_mul()
          Traceback (most recent call last):
                    ...
-         TypeError: lazy_matrix_mul() missing 2 required positional arguments: 'm_a' and 'm_b'
+         TypeError: matrix_mul() missing 2 required positional arguments: 'm_a' and 'm_b'
 
 one argument:
          >>> m_a = [[1, 2], [3, 4]]
          >>> matrix_mul(m_a)
          Traceback (most recent call last):
                    ...
-         TypeError: lazy_matrix_mul() missing 1 required positional argument: 'm_b'
+         TypeError: matrix_mul() missing 1 required positional argument: 'm_b'
 
 more than two arguments:
          >>> m_a = [[1, 2], [3, 4]]
@@ -45,7 +45,7 @@ more than two arguments:
          >>> matrix_mul(m_a, m_b, m_c)
          Traceback (most recent call last):
 	 	   ...
-	 TypeError: lazy_matrix_mul() takes 2 positional arguments but 3 were given
+	 TypeError: matrix_mul() takes 2 positional arguments but 3 were given
 
 a is empty:
 	 >>> m_a = []
@@ -53,15 +53,15 @@ a is empty:
          >>> matrix_mul(m_a, m_b)
          Traceback (most recent call last):
                    ...
-         TypeError: m_a can't be empty
+         ValueError: m_a can't be empty
 
 b is empty:
          >>> m_a = [[1, 2], [3, 4]]
-         >>> m_b = []
+         >>> m_b = [[]]
          >>> matrix_mul(m_a, m_b)
          Traceback (most recent call last):
                    ...
-         TypeError: m_b can't be empty
+         ValueError: m_b can't be empty
 
 a and b are empty:
          >>> m_a = []
@@ -69,7 +69,7 @@ a and b are empty:
          >>> matrix_mul(m_a, m_b)
          Traceback (most recent call last):
                    ...
-         TypeError: m_a can't be empty
+         ValueError: m_a can't be empty
 
 
 one integer argument:
@@ -78,11 +78,19 @@ one integer argument:
          >>> matrix_mul(m_a, m_b)
          Traceback (most recent call last):
                    ...
-         TypeError: m_a should contain only integers or floats
+         TypeError: m_a must be a list
 
 one string argument:
          >>> m_a = [[1, 2], [3, 4]]
          >>> m_b = "matrix"
+         >>> matrix_mul(m_a, m_b)
+         Traceback (most recent call last):
+                   ...
+         TypeError: m_b must be a list
+
+matrix contains non-integer or float:
+         >>> m_a = [[1, 2], [3, 4]]
+         >>> m_b = [[5, 6], ["seven", 8]]
          >>> matrix_mul(m_a, m_b)
          Traceback (most recent call last):
                    ...
