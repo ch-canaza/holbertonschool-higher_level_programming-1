@@ -103,10 +103,26 @@ one string argument:
                    ...
          TypeError: m_b must be a list
 
-matrix contains non-integer or float:
+a contains non-number:
+         >>> m_a = [[1, 2], ['A', 4]]
+         >>> m_b = [[5, 6], [7, 8]]
+         >>> matrix_mul(m_a, m_b)
+         Traceback (most recent call last):
+                   ...
+         TypeError: m_a should contain only integers or floats
+
+b contains non-number:
          >>> m_a = [[1, 2], [3, 4]]
          >>> m_b = [[5, 6], ["seven", 8]]
          >>> matrix_mul(m_a, m_b)
          Traceback (most recent call last):
                    ...
          TypeError: m_b should contain only integers or floats
+
+different sized matrices:
+	 >>> m_a = [[1, 2], [3, 4]]
+         >>> m_b = [[5, 6, 7], [8, 9, 10]]
+         >>> matrix_mul(m_a, m_b)
+         Traceback (most recent call last):
+                   ...
+         ValueError: m_a and m_b can't be multiplied
