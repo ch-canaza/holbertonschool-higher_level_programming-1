@@ -16,9 +16,9 @@ def matrix_mul(m_a, m_b):
     total_len = len(m_a)
     len_a = len(m_a[0])
     len_b = len(m_b[0])
-    if total_len == 0 or type(len_a[0]) is list and len_a == 0:
+    if total_len == 0 or len_a == 0:
         raise ValueError('m_a can\'t be empty')
-    if len(m_b) == 0 or type(len_b[0]) is list and len_b == 0:
+    if len(m_b) == 0 or len_b == 0:
         raise ValueError('m_b can\'t be empty')
     for row in m_a:
         if len(row) != len_a:
