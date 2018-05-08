@@ -26,7 +26,7 @@ class Rectangle:
         """ validates width as a positive integer """
         if type(value) is not int:
             raise TypeError('width must be an integer')
-        if value < 0:
+        if value < 0 or value == []:
             raise ValueError('width must be >= 0')
         self.__width = value
 
@@ -40,6 +40,6 @@ class Rectangle:
         """ validates height as a positive integer """
         if type(value) is not int:
             raise TypeError('height must be an integer')
-        if value < 0:
+        if value < 0 or value == []:
             raise ValueError('height must be >= 0')
         self.__height = value
