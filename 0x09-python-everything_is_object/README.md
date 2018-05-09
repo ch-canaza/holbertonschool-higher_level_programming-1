@@ -224,7 +224,7 @@ a is b
 >>> id(a)
 ```
 
-**[Blog Post](https://medium.com/lizzieturner)** - Write a blog post on everything this project covers. It should be organized in the following way:   
+**Blog Post: [Python Objects](https://medium.com/@lizzie_turner/python-objects-cac2c73b1bec)** - Write a blog post on everything this project covers. It should be organized in the following way:   
 	* Introduction   
 	* ID and Types   
 	* Mutable objects   
@@ -238,17 +238,41 @@ a is b
 
 **[101-locked_class.py](101-locked_class.py)** - Write a class `LockedClass` with no class or object attribute, that prevents the user to dynamically create new instance attributes, except if the new instance attribute is called `first_name`.   
 
-**[103-line1.txt](103-line1.txt)**, **[103-line2.txt](103-line2.txt)** - Assuming we are using a CPython implementation of Python3 with default options/configuration:   
-   * How many int objects are created by the execution of the first line of the script? (`103-line1.txt`)   
-   * How many int objects are created by the execution of the second line of the script (`103-line2.txt`)   
+**103-line**   
+```
+julien@ubuntu:/python3$ cat int.py 
+a = 1
+b = 1
+julien@ubuntu:/python3$ 
+```
+Assuming we are using a CPython implementation of Python3 with default options/configuration:   
+   * [103-line1.txt](103-line1.txt) - How many int objects are created by the execution of the first line of the script?   
+   * [103-line2.txt](103-line2.txt) - How many int objects are created by the execution of the second line of the script?   
 
-**[104-line1.txt](104-line1.txt)**, **[104-line2.txt](104-line2.txt)**, **[104-line3.txt](104-line3.txt)**, **[104-line4.txt](104-line4.txt)**, **[104-line5.txt](104-line5.txt)** - Assuming we are using a CPython implementation of Python3 with default options/configuration:   
-   * How many int objects are created by the execution of the first line of the script? `(104-line1.txt)`   
-   * How many int objects are created by the execution of the second line of the script `(104-line2.txt)`   
-   * After the execution of line 3, is the int object pointed by a deleted? Answer with Yes or No `(104-line3.txt)`   
-   * After the execution of line 4, is the int object pointed by b deleted? Answer with Yes or No `(104-line4.txt)`   
-   * How many int objects are created by the execution of the last line of the script `(104-line5.txt)`   
+**104-line**   
+```
+julien@ubuntu:/python3$ cat int.py 
+a = 1024
+b = 1024
+del a
+del b
+c = 1024
+julien@ubuntu:/python3$ 
+```
+Assuming we are using a CPython implementation of Python3 with default options/configuration:   
+   * [104-line1.txt](104-line1.txt) - How many int objects are created by the execution of the first line of the script?   
+   * [104-line2.txt](104-line2.txt) - How many int objects are created by the execution of the second line of the script   
+   * [104-line3.txt](104-line3.txt) - After the execution of line 3, is the int object pointed by a deleted? Answer with Yes or No   
+   * [104-line4.txt](104-line4.txt) - After the execution of line 4, is the int object pointed by b deleted? Answer with Yes or No   
+   * [104-line5.txt](104-line5.txt) - How many int objects are created by the execution of the last line of the script   
 
-**[105-line1.txt](105-line1.txt)** - Assuming we are using a CPython implementation of Python3 with default options/configuration:   
-   * Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory? (`105-line1.txt`)   
-   * Why? (optional blog post)   
+**105-line** -   
+```
+julien@twix:/tmp/so$ cat int.py 
+print("I")
+print("Love")
+print("Python")
+julien@ubuntu:/tmp/so$ 
+```
+Assuming we are using a CPython implementation of Python3 with default options/configuration:   
+   * [105-line1.txt](105-line1.txt) - Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory?   
