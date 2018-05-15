@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ module 1-my_list contains the class MyList """
 
+
 class MyList(list):
     """ defines MyList class """
 
