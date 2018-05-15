@@ -29,7 +29,8 @@ Be able to explain:
 Prototype: `def lookup(obj):`   
 
 **[1-my_list.py](1-my_list.py)** - Write a class `MyList` that inherits from `list`   
-   * Public Instance Method: `def print_sorted(self):`   
+   * Public Instance Method: `def print_sorted(self):`    
+
 Test Files: [tests/1-my_list.txt](tests/1-my_list.txt)   
 
 **[2-is_same_class.py](2-is_same_class.py)** - Write a function that returns `True` if the object is an instance of the specified class and `False` otherwise   
@@ -50,6 +51,7 @@ Prototype: `def inherits_from(obj, a_class):`
    * Public instance method `def integer_validator(self, name, value):` that validates `value`   
       * if `value` is not an integer: raise a `TypeError` exception, with the message `<name> must be an integer`   
       * if `value` is less or equal to 0: raise a `ValueError` exception with the message `<name> must be greater than 0`   
+
 Test Files: [tests/7-base_geometry.txt](tests/7-base_geometry.txt)   
 
 **[8-rectangle.py](8-rectangle.py)** - Write a class `Rectangle` that inherits from `BaseGeometry`   
