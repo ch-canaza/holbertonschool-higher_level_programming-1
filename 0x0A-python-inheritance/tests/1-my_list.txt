@@ -9,7 +9,7 @@ import module:
 
 empty list:
 	 >>> ml = MyList()
-	 >>> print(ml)
+	 >>> ml.print_sorted()
 	 []
 
 append new elements:
