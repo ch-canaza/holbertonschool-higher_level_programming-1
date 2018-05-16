@@ -15,4 +15,7 @@ class Student:
         """ retrieves dictionary representation of a Student instance """
         if attrs is None or type(attrs) is not list:
             return self.__dict__
+        for att in attrs:
+            if type(att) is not str:
+                return self.__dict__
         return {x: self.__dict__[x] for x in self.__dict__ if x in attrs}
