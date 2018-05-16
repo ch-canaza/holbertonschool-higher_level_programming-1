@@ -65,6 +65,12 @@ set:
                    ...
          TypeError: set must be an integer
 
+None:
+         >>> bg.integer_validator("none", None)
+         Traceback (most recent call last):
+                   ...
+         TypeError: none must be an integer
+
 zero arguments:
          >>> bg.integer_validator()
          Traceback (most recent call last):
