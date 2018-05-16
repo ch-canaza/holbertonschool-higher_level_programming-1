@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" contains the number_of_lines function """
+
+
 def number_of_lines(filename=""):
     """ returns the number of lines in a file """
     count = 0
