@@ -11,4 +11,4 @@ class MyInt(int):
 
     def __ne__(self, other):
         """ != now acts like == """
-        return int.__eq__(self,other)
+        return int.__eq__(self, other)

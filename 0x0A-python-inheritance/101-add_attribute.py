@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ module 101-add_attribute contains the function add_attribute """
 
+
 def add_attribute(obj, name, value):
     """ if possible, add a new attribute to an object """
     if hasattr(obj, '__dict__'):
