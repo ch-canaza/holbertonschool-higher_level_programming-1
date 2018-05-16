@@ -12,16 +12,10 @@ By the end of the project, be able to explain:
 
 ## REQUIREMENTS   
 
-### PYTHON SCRIPT REQUIREMENTS  
    * the first line of all files should be exactly `#!/usr/bin/python3`   
    * all code should use the `PEP8` style (version 1.7.*)   
    * all files must be executable   
    * all files will be interpreted/compiled on Ubuntu 14.04 LTS using `python3` (version 3.4.3)   
-
-### PYTHON TEST CASE REQUIREMENTS    
-   * all test files should be in the folder `tests`   
-   * all test files should be text files (extension: `.txt`)   
-   * all test files should be executed using the command `python3 -m doctest ./tests/*`   
    * all modules should have documentation `python3 -c 'print(__import__("my_module").__doc__)'`   
    * all functions (inside and outside of classes) should have documentation `python3 -c 'print(__import__("my_module").my_function.__doc__)'`   
 
@@ -93,9 +87,9 @@ Prototype: `def append_after(filename="", search_string="", new_string=""):`
    * Each 10 lines and after every  keyboard interruption, print these statistics:   
       * Total file size `File size: <total size>` which is the sum of all previous file sizes   
       * Number of lines by status code:   
-         * possible status code: `200`, `301`, `400`, `401`, `403`, `404`, `405` and `500`   
-	 * format: `<status code>: <number>`   
-	 * if a status code doesn’t appear, don’t print anything for that code   
+         * possible status code: `200`, `301`, `400`, `401`, `403`, `404`, `405` and `500`    
+	 * format: `<status code>: <number>`    
+	 * if a status code doesn’t appear, don’t print anything for that code    
 
 **[read_write_heap.py](read_write_heap.py)** - Write a script that finds a string in the heap of a running process, and replaces it   
 Usage: `read_write_heap.py pid search_string replace_string`   
