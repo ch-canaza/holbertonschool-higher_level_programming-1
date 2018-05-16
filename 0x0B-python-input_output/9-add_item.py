@@ -7,7 +7,7 @@ load_from_json_file = __import__('8-load_from_json_file').load_from_json_file
 
 filename = "add_item.json"
 try:
-    my_list = load_from_json(filename)
+    my_list = load_from_json_file(filename)
 except:
     my_list = []
 for arg in argv[1:]:
