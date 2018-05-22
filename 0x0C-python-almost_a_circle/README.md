@@ -36,7 +36,7 @@ Learn the following new concepts:
 ## FILE STRUCTURE   
 
 **[models](models)**   
-   * [/__init/__.py](models/__init__.py) - initialization file to turn folder into a Python module   
+   * [__init_\_.py](models/__init__.py) - initialization file to turn folder into a Python module   
    * [base.py](models/base.py) - contains the class Base   
    * [rectangle.py](models/rectangle.py) - contains the class Rectangle   
    * [square.py](models/square.py) - contains the class Square   
