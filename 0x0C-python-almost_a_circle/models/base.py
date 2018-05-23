@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ this module contains the class Base """
 import json
+import csv
 
 
 class Base:
@@ -60,6 +61,42 @@ class Base:
                 new_list = cls.from_json_string(f.read())
             for i, j in enumerate(new_list):
                 new_list[i] = cls.create(**new_list[i])
+        except:
+            pass
+        return new_list
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """ serializes in csv format"""
+        filename = cls.__name__ + ".csv"
+        if cls.__name__ is "Rectangle":
+            attrs = ["width", "height", "x", "y", "id"]
+        elif cls.__name__ is "Square":
+            attrs = ["size", "x", "y", "id"]
+        with open(filename, 'w', newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=attrs)
+            if list_objs is not None:
+                writer.writeheader()
+                for obj in list_objs:
+                    writer.writerow(obj.to_dictionary())
+            else:
+                writer.writerows([[]])
+
+    @classmethod
+    def load_from_file_csv(cls):
+        """ deserializes in csv format """
+        new_list = []
+        filename = cls.__name__ + ".csv"
+        try:
+            obj_list = []
+            with open(filename, 'r') as f:
+                reader = csv.Dictreader(f)
+                for row in reader:
+                    for k, v in row.items():
+                        row[k] = int(v)
+                    obj_list.append(row)
+            for obj in obj_list:
+                new_list.append(cls.create(**obj))
         except:
             pass
         return new_list
