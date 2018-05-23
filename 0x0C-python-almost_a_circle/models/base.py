@@ -80,23 +80,20 @@ class Base:
                 for obj in list_objs:
                     writer.writerow(obj.to_dictionary())
             else:
-                writer.writerows([[]])
+                writer.writerow([[]])
 
     @classmethod
     def load_from_file_csv(cls):
         """ deserializes in csv format """
-        new_list = []
         filename = cls.__name__ + ".csv"
+        new_list = []
         try:
-            obj_list = []
-            with open(filename, 'r') as f:
-                reader = csv.Dictreader(f)
+            with open(filename, 'r', newline="") as f:
+                reader = csv.DictReader(f)
                 for row in reader:
                     for k, v in row.items():
                         row[k] = int(v)
-                    obj_list.append(row)
-            for obj in obj_list:
-                new_list.append(cls.create(**obj))
-        except:
-            pass
-        return new_list
+                    new_list.append(row)
+            return [cls.create(**obj) for obj in new_list]
+        except FileNotFoundError:
+            return [[]]
