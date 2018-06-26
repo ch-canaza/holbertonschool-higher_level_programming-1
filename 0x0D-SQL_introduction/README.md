@@ -10,8 +10,6 @@ An introductory project on:
    * `subqueries`   
 
 ## REQUIREMENTS   
-
-### SQL SCRIPT REQUIREMENTS  
    * all files will be executed on Ubuntu 14.04 LTS using `MySQL 5.7` (version 5.7.8-rc)   
    * all files should start with a comment describing the task   
    * all SQL queries should have a comment just before (i.e. syntax above)   
