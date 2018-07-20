@@ -9,7 +9,9 @@ if __name__ == "__main__":
                          passwd=argv[2],
                          db=argv[3])
     cur = db.cursor()
-    cur.execute("SELECT * from states WHERE name LIKE 'N%' ORDER BY states.id")
+    cur.execute("SELECT * from states\
+                WHERE name LIKE 'N%' COLLATE latin1_general_cs\
+                ORDER BY states.id")
     state_list = cur.fetchall()
     for state in state_list:
         print(state)
