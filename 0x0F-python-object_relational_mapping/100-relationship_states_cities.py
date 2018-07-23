@@ -10,6 +10,7 @@ if __name__ == "__main__":
     from sqlalchemy.orm import sessionmaker
     engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'
                            .format(argv[1], argv[2], argv[3]))
+    Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
     session = Session()
     state = State(name="California", cities=[City(name="San Francisco")])
