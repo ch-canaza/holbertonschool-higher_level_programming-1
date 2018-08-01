@@ -1,0 +1,2 @@
+# time complexity of peak.py
+O(log(n))
