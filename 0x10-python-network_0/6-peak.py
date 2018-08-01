@@ -12,6 +12,7 @@ def find_peak(list_of_integers):
     right = len(list_of_integers) - 1
     return peak_find(list_of_integers, left, right)
 
+
 def peak_find(list, left, right):
     ''' finds peak recursively using binary search '''
     if left == right:
