@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''   '''
+''' displays value of X-Request-Id found in header of response  '''
 import urllib.request as req
 from sys import argv
 if __name__ == "__main__":
