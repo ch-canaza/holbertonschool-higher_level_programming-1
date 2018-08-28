@@ -1,5 +1,5 @@
 #!/usr/bin/node
-let x = process.argv[2];
+let x = parseInt(process.argv[2]);
 function factorial (x) {
   if (x === 1 || isNaN(x)) {
     return (1);
@@ -7,4 +7,4 @@ function factorial (x) {
     return (x * factorial(x - 1));
   }
 }
-console.log(factorial(parseInt(x)));
+console.log(factorial(x));
