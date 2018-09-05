@@ -8,7 +8,7 @@ request(url, function (err, response, body) {
     let filmList = JSON.parse(body).results;
     let count = 0;
     for (let film in filmList) {
-      let charList = filmList[film].charList;
+      let charList = filmList[film].characters;
       for (let character in charList) {
         if (charList[character].includes('18')) {
           count++;
