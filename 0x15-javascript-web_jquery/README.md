@@ -8,14 +8,14 @@
    * how to make `GET` and `POST` requests with jQuery Ajax   
    * how to listen/bind to DOM and user events   
 
-## REQUIREMENTS   
-    * all files will be interpreted on Ubuntu 14.04 LTS using `node` (version 6.10.2)   
-    * the first line of all files must be `#!/usr/bin/node`   
-    * all code must be `semistandard` compliant with the flag ``--global $`   
-    * all files must be executable   
-    * you must use jQuery version 3.x   
-    * `var` is not allowed   
-    * HTML should not reload for each action: DOM manipulation, update values, fetch data…   
+## REQUIREMENTS  
+   * all files will be interpreted on Ubuntu 14.04 LTS using `node` (version 6.10.2)   
+   * the first line of all files must be `#!/usr/bin/node`   
+   * all code must be `semistandard` compliant with the flag ``--global $`   
+   * all files must be executable   
+   * you must use jQuery version 3.x   
+   * `var` is not allowed   
+   * HTML should not reload for each action: DOM manipulation, update values, fetch data…   
 
 ## EXERCISES   
 
