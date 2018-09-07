@@ -41,14 +41,6 @@
 
 **[9-script.js](9-script.js)** -  
 
-**[10-script.js](10-script.js)** - 
-
-**[11-script.js](11-script.js)** -  
-
-**[12-script.js](12-script.js)** - 
-
-**[13-script.js](13-script.js)** -  
-
 ### ADVANCED   
 
 **[100-script.js](100-script.js)** - 
